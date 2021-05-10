@@ -1,0 +1,171 @@
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 20px;
+  color: #292929;
+  background: white;
+  padding: 0;
+  margin: 0;
+}
+
+.full-width {
+  margin: 0 auto;
+  overflow: auto;
+  width: 1200px;
+}
+
+.half-width {
+  float: left;
+  width: 600px;
+}
+
+.third-width {
+  float: left;
+  width: 400px;
+}
+
+/***** Header *****/
+header {
+  padding-bottom: 0;
+  margin: 0 auto;
+  overflow: auto;
+  background: white;
+}
+.nav {
+  width: 50%;
+  float: left;
+}
+.title {
+  width: 50%;
+  float: left;
+}
+
+h1 {
+color: #254E6B;
+font-size: 45px;
+font-family: 'Sigmar One', cursive;
+text-align: left;
+margin: 0;
+margin-left: 20px;
+}
+
+nav {
+  float:right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #292929;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-left: 30px;
+  padding-top: 10px;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #8F2D56;
+}
+/***** Landing *****/
+
+#hero {
+  background-position: center;
+  background: url('../img/hero.png');
+  height: 725px;
+  padding-top: 0;
+  margin-bottom: 0;
+  background-size: cover;
+}
+h2 {
+  font-size: 72px;
+  font-weight: bold;
+  color: white;
+  clear: both;
+  padding: 320px 0 0 100px;
+  margin: 0;
+}
+
+span {
+  color: #8F2D56;
+}
+
+
+/***** my portfolio *****/
+h3 {
+  text-align: center;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 30px;
+  color: #8F2D56;
+  text-transform: uppercase;
+}
+
+ .caption p {
+  margin-top: 0;
+  padding-top: 0;
+  width: 550px;
+  line-height: 35px;
+ }
+
+ h4 {
+   margin-bottom: 0;
+   padding-bottom: 10px;
+   padding-top: 30px;
+ }
+
+ .project {
+   margin-bottom: 50px;
+ }
+/***** about  *****/
+#about {
+  background: url('../img/about-me.png');
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+#about h3 {
+  padding-top: 30px;
+}
+
+#about p {
+  padding: 0 0 0 100px;
+  width: 650px;
+}
+
+#about h4 {
+  padding: 100px 0 0 100px;
+}
+/***** footer *****/
+footer p {
+  text-align: center;
+}
+.center {
+  text-align: center;
+  height: 150px;
+  padding-top: 10px;
+}
+.center h4 {
+  padding: 0;
+  margin: 0;
+}
+footer h3 {
+  text-shadow: 2px 2px black;
+}
+
+footer {
+  background: #254E6B;
+  color: white;
+}
+
+.copyright {
+  font-size: 15px;
+}
+footer img {
+  height: 50px;
+  width: 50px;
+  padding: 20px;
+}
